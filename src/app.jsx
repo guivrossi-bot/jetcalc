@@ -6,6 +6,7 @@ import CalculatorForm from './components/CalculatorForm'
 import EmailGate from './components/EmailGate'
 import ResultsPage from './components/ResultsPage'
 import Footer from './components/Footer'
+import ThemeToggle from './components/ThemeToggle'
 
 // Detect metric vs imperial from browser locale
 function detectUnit() {
@@ -100,6 +101,7 @@ export default function App() {
           )}
 
           <Footer />
+          <ThemeToggle />
         </div>
       </UnitContext.Provider>
     </LanguageContext.Provider>
