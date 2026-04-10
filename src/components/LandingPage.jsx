@@ -8,7 +8,7 @@ export default function LandingPage({ onStart, lang, setLang, unit, setUnit }) {
     <div className="landing">
       <nav className="nav">
         <div className="nav-brand">
-          <a href="https://industrialcuttinglabs.com" className="nav-back">← ICL</a>
+          <a href="https://www.industrialcuttinglabs.com/" className="nav-back">← ICL</a>
           <span className="nav-logo">JetCalc</span>
         </div>
         <div className="nav-controls">

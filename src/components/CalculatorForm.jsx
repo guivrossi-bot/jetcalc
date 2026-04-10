@@ -104,7 +104,7 @@ export default function CalculatorForm({ lang, unit, onSubmit }) {
     <div className="calc-page">
       <nav className="nav nav--compact">
         <div className="nav-brand">
-          <a href="https://industrialcuttinglabs.com" className="nav-back">← ICL</a>
+          <a href="https://www.industrialcuttinglabs.com/" className="nav-back">← ICL</a>
           <span className="nav-logo">JetCalc</span>
         </div>
       </nav>
