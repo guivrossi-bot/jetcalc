@@ -13,6 +13,8 @@ export default function Footer() {
         <span className="footer-tagline">{tr.footerTagline}</span>
         <span className="footer-sep">·</span>
         <a href="/ignite" className="footer-link">{tr.footerIgnite}</a>
+        <span className="footer-sep">·</span>
+        <a href="https://www.industrialcuttinglabs.com/" target="_blank" rel="noopener noreferrer" className="footer-link">industrialcuttinglabs.com</a>
       </div>
     </footer>
   )
